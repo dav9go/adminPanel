@@ -1,0 +1,38 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /** Variables **/
+  /* Colors */
+  --clr-white: #e0e1dd;
+  --clr-soft-blue: #778da9;
+  --clr-blue: #415a77;
+  --clr-soft-dark: #1b263b;
+  --clr-dark: #0d1b2a;
+
+  /* Font size */
+  --fs-small: 1rem;
+  --fs-medium: 1.25rem;
+  --fs-large: 2rem;
+  --fs-xl: 3rem;
+
+  /* Sizes */
+  --nav-height: 4rem;
+  --rounded-box: 1rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--clr-dark);
+  color: var(--clr-white);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
